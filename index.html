@@ -3,7 +3,114 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ElldyShop</title>
+    <title>Elldy Shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Open Sans", sans-serif;
+      }
+    </style>
   </head>
-  <body></body>
+
+  <body class="text-gray-800">
+    <!-- Header -->
+    <header
+      class="bg-cover bg-center h-screen text-white"
+      style="
+        background-image: url('https://colorlibhub.com/illdy/wp-content/uploads/sites/58/2016/03/front-page-header.jpg');
+      "
+    >
+      <div
+        class="bg-black bg-opacity-50 h-full flex flex-col items-center justify-center text-center px-4"
+      >
+        <h1 class="text-5xl md:text-7xl font-bold mb-4">
+          Clean<span class="text-yellow-400">.</span>Slick<span
+            class="text-yellow-400"
+            >.</span
+          >Pixel Perfect
+        </h1>
+        <p class="text-xl md:text-2xl mb-8">
+          Illdy is a great one-page theme, perfect for developers and designers.
+        </p>
+        <div>
+          <a
+            href="#"
+            class="bg-yellow-400 hover:bg-yellow-300 text-black font-semibold py-3 px-6 rounded mr-4"
+            >Learn More</a
+          >
+          <a
+            href="#"
+            class="border border-white hover:bg-white hover:text-black py-3 px-6 rounded"
+            >Download</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="py-20 bg-white text-center">
+      <div class="max-w-4xl mx-auto px-4">
+        <h2 class="text-4xl font-bold mb-4">About Illdy</h2>
+        <p class="text-lg text-gray-600">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id sem
+          vel sapien rutrum pharetra.
+        </p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-20 bg-gray-100 text-center">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-4xl font-bold mb-12">Services</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div>
+            <img
+              src="https://img.icons8.com/ios-filled/100/000000/web-design.png"
+              class="mx-auto mb-4"
+            />
+            <h3 class="text-2xl font-bold mb-2">Web Design</h3>
+            <p class="text-gray-600">
+              Beautiful and modern designs tailored to your brand.
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://img.icons8.com/ios-filled/100/000000/code.png"
+              class="mx-auto mb-4"
+            />
+            <h3 class="text-2xl font-bold mb-2">Development</h3>
+            <p class="text-gray-600">
+              Clean, efficient code to bring your ideas to life.
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://img.icons8.com/ios-filled/100/000000/marketing.png"
+              class="mx-auto mb-4"
+            />
+            <h3 class="text-2xl font-bold mb-2">Marketing</h3>
+            <p class="text-gray-600">
+              Reach more people and grow your audience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <p class="mb-4">&copy; 2025 Elldy Shop. Built with Tailwind CSS.</p>
+        <div class="flex justify-center space-x-4">
+          <a href="#" class="hover:text-yellow-400">Facebook</a>
+          <a href="#" class="hover:text-yellow-400">Twitter</a>
+          <a href="#" class="hover:text-yellow-400">Instagram</a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
