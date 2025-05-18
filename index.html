@@ -162,19 +162,17 @@
     <!-- Testimonials -->
     <section>
       <div
-        class="min-h-screen w-full bg-[url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/testiomnials-background.jpg)] flex flex-col text-center p-10 place-items-center gap-5 justify-evenly"
+        class="min-h-screen w-full bg-[url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/testiomnials-background.jpg)] flex flex-col text-center p-10 place-items-center gap-5 justify-evenly bg-center bg-cover bg-repeat-none"
       >
-        <h2
-          class="text-[35px] text-[white] font-bolds font-bold mt-0 mr-0 ml-0"
-        >
+        <h2 class="text-[35px] text-[white] font-bold mt-0 mr-0 ml-0">
           Testimonials
         </h2>
         <img
-          class="rounded-full h-[100px] w-[100px]"
+          class="rounded-full h-[120px] w-[120px] bg-center bg-cover bg-repeat-none"
           src="https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/58/2016/02/Aigars-Silkalns-127x127.jpg"
           alt="testimonial-person-image"
         />
-        <div class="bg-[#6a4d8a] p-20 rounded-xl text-white">
+        <div class="bg-[#6a4d8a] p-20 rounded-xl text-white m-10">
           <q>
             Awesome theme with great design and awesome support. If you don’t
             know how to code your own WordPress theme, but you still want a
@@ -251,182 +249,239 @@
     </section>
 
     <!-- Latest News -->
-    <section></section>
-
-    <!-- Team -->
     <section>
-      <div
-        class="flex flex-col min-h-screen w-full justify-evenly text-center mt-10"
-      >
-        <h2 class="text-[35px] text-[#545454] font-bold mt-0 mr-0 ml-0">
-          Team
-        </h2>
+      <div class="bg-[#222f36] text-white text-center p-10">
+        <!-- Heading -->
+        <h2 class="text-[35px] font-bold">Latest News</h2>
         <p class="text-[#8c9597] mb-5 font-lato">
+          If you are interested in the latest articles in the industry, take a
+          sneak peek at our blog. You have nothing to loose!
+        </p>
+
+        <!-- Blog Button -->
+        <div class="mb-12">
+          <button
+            type="submit"
+            class="bg-[#f1d204] hover:bg-purple-700 text-white font-semibold py-2 px-6 rounded transition"
+          >
+            <span class="flex items-center justify-center">
+              <i class="fa fa-chevron-circle-right mr-2"></i>
+              See Blog
+            </span>
+          </button>
+        </div>
+
+        <!-- Blog Cards -->
+        <div
+          class="grid md:grid-cols-3 gap-8 justify-evenly max-w-6xl mx-auto text-black"
+        >
+          <!-- Card 1 -->
+          <div class="bg-white rounded shadow overflow-hidden">
+            <img
+              src="https://149842022.v2.pressablecdn.com/illdy/wp-content/uploads/sites/58/2016/02/photo-1449168013943-3a15804bb41c-360x213.jpg"
+              class="w-full h-48 object-cover"
+              alt="Ocean"
+            />
+            <div class="p-5">
+              <h3 class="font-bold text-lg mb-2">
+                We Have Made Illdy Theme SEO Friendly
+              </h3>
+              <p class="text-sm text-gray-600 mb-4">
+                Illdy One Page WordPress theme is fully SEO friendly and is
+                ready to help you to achieve the highest rankings...
+              </p>
+              <a href="#" class="text-yellow-500 font-medium flex items-center">
+                <span class="mr-1">●</span> Read more
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-white rounded shadow overflow-hidden">
+            <img
+              src="https://149842022.v2.pressablecdn.com/illdy/wp-content/uploads/sites/58/2016/02/photo-1450101215322-bf5cd27642fc-360x213.jpg"
+              class="w-full h-48 object-cover"
+              alt="Mountains"
+            />
+            <div class="p-5">
+              <h3 class="font-bold text-lg mb-2">
+                Stunning One Page WordPress Theme For Masses
+              </h3>
+              <p class="text-sm text-gray-600 mb-4">
+                Illdy One Page WordPress theme is fully SEO friendly and is
+                ready to help you to achieve the highest rankings...
+              </p>
+              <a href="#" class="text-yellow-500 font-medium flex items-center">
+                <span class="mr-1">●</span> Read more
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-white rounded shadow overflow-hidden">
+            <img
+              src="https://149842022.v2.pressablecdn.com/illdy/wp-content/uploads/sites/58/2016/02/photo-1447687643809-e05fd462f350-360x213.jpg"
+              class="w-full h-48 object-cover"
+              alt="Mountains"
+            />
+            <div class="p-5">
+              <h3 class="font-bold text-lg mb-2">
+                We Have Made Illdy Theme SEO Friendly
+              </h3>
+              <p class="text-sm text-gray-600 mb-4">
+                Illdy One Page WordPress theme is fully SEO friendly and is
+                ready to help you to achieve the highest rankings...
+              </p>
+              <a href="#" class="text-yellow-500 font-medium flex items-center">
+                <span class="mr-1">●</span> Read more
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Yellow Stats Bar -->
+      <div
+        class="bg-yellow-500 py-10 text-center text-white grid grid-cols-1 md:grid-cols-3 gap-5 font-bold text-xl"
+      >
+        <div>
+          <div class="text-4xl">260</div>
+          <div class="text-sm">PROJECTS</div>
+        </div>
+        <div class="border-l border-white border-opacity-50">
+          <div class="text-4xl">120</div>
+          <div class="text-sm">CLIENTS</div>
+        </div>
+        <div class="border-l border-white border-opacity-50">
+          <div class="text-4xl">260</div>
+          <div class="text-sm">COFFES</div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="py-16 min-h-screen w-full bg-[url('https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png')] bg-center bg-cover bg-no-repeat bg-white"
+      alt="pattern"
+    >
+      <div class="text-center mb-20 justify-evenly">
+        <h2 class="text-[35px] text-[#545454] font-bold">Team</h2>
+        <p class="text-[#8c9597] font-lato">
           Meet the people that are going to take your business to the next
           level.
         </p>
-        <div class="grid grid-cols-3 md:grid-cols-3 gap-10 mr-10 ml-10">
+      </div>
+
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 px-6 max-w-7xl mx-auto"
+      >
+        <!-- Team Member 1 -->
+        <div class="flex flex-row items-center text-center">
+          <img
+            class="w-[30px] h-[30px] sm:w-40 sm:h-40 rounded-full mb-6 mr-10"
+            src="https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-team-1.jpg"
+            alt="Mark Lawrance"
+          />
           <div
-            class="flex flex-col sm:flex-row p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow max-w-2xl mx-auto"
+            class="flex flex-col justify-evenly text-center place-items-center"
           >
-            <!-- Team Member Image -->
-            <div class="flex-shrink-0 mb-4 sm:mb-0">
-              <img
-                src="https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-team-1.jpg"
-                alt="Mark Lawrance - Web Designer"
-                class="w-32 h-32 sm:w-40 sm:h-40 object-cover rounded-full border-4 border-white shadow-md"
-              />
-            </div>
-
-            <!-- Team Member Info -->
-            <div class="flex flex-col pl-0 sm:pl-8">
-              <h4 class="text-xl sm:text-2xl font-bold text-gray-800">
-                Mark Lawrance
-              </h4>
-              <h5 class="text-[#f18b6d] text-lg font-medium mb-3">
-                Web Designer
-              </h5>
-              <p class="text-gray-600 mb-4">
-                Creative, detail-oriented, always focused.
-              </p>
-
-              <!-- Social Icons -->
-              <ul class="flex gap-4">
-                <li>
-                  <a
-                    href="#"
-                    class="h-8 w-8 rounded-full border flex items-center justify-center text-gray-600 hover:text-white hover:bg-blue-600 transition-colors"
-                  >
-                    <i class="fab fa-facebook-f text-sm"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="h-8 w-8 rounded-full border flex items-center justify-center text-gray-600 hover:text-white hover:bg-[#1DA1F2] transition-colors"
-                  >
-                    <i class="fab fa-twitter text-sm"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="h-8 w-8 rounded-full border flex items-center justify-center text-gray-600 hover:text-white hover:bg-gray-800 transition-colors"
-                  >
-                    <i class="fab fa-github text-sm"></i>
-                  </a>
-                </li>
-              </ul>
+            <h3 class="text-xl font-bold text-gray-800">Mark Lawrance</h3>
+            <p class="text-[#f18b6d] font-medium mb-2">Web Designer</p>
+            <p class="text-gray-600 mb-4 text-sm">
+              Creative, detail-oriented, always focused.
+            </p>
+            <div class="flex space-x-4">
+              <a
+                href="#"
+                class="text-[#f18b6d] hover:text-white hover:bg-[#f18b6d] border rounded-full w-8 h-8 flex items-center justify-center transition"
+              >
+                <i class="fab fa-facebook-f text-sm"></i>
+              </a>
+              <a
+                href="#"
+                class="text-[#f18b6d] hover:text-white hover:bg-[#f18b6d] border rounded-full w-8 h-8 flex items-center justify-center transition"
+              >
+                <i class="fab fa-twitter text-sm"></i>
+              </a>
+              <a
+                href="#"
+                class="text-[#f18b6d] hover:text-white hover:bg-[#f18b6d] border rounded-full w-8 h-8 flex items-center justify-center transition"
+              >
+                <i class="fab fa-linkedin-in text-sm"></i>
+              </a>
             </div>
           </div>
+        </div>
 
-          <!-- 2 -->
+        <!-- Team Member 2 -->
+        <div class="flex flex-row items-center text-center">
+          <img
+            class="w-32 h-32 sm:w-40 sm:h-40 rounded-full mb-6 mr-10"
+            src="https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-team-2.jpg"
+            alt="Jane Stenton"
+          />
           <div
-            class="flex flex-col sm:flex-row p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow max-w-2xl mx-auto"
+            class="flex flex-col justify-evenly text-center place-items-center"
           >
-            <!-- Team Member Image -->
-            <div class="flex-shrink-0 mb-4 sm:mb-0">
-              <img
-                src="https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-team-1.jpg"
-                alt="Mark Lawrance - Web Designer"
-                class="w-32 h-32 sm:w-40 sm:h-40 object-cover rounded-full border-4 border-white shadow-md"
-              />
-            </div>
-
-            <!-- Team Member Info -->
-            <div class="flex flex-col pl-0 sm:pl-8">
-              <h4 class="text-xl sm:text-2xl font-bold text-gray-800">
-                Mark Lawrance
-              </h4>
-              <h5 class="text-[#f18b6d] text-lg font-medium mb-3">
-                Web Designer
-              </h5>
-              <p class="text-gray-600 mb-4">
-                Creative, detail-oriented, always focused.
-              </p>
-
-              <!-- Social Icons -->
-              <ul class="flex gap-4">
-                <li>
-                  <a
-                    href="#"
-                    class="h-8 w-8 rounded-full border flex items-center justify-center text-gray-600 hover:text-white hover:bg-blue-600 transition-colors"
-                  >
-                    <i class="fab fa-facebook-f text-sm"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="h-8 w-8 rounded-full border flex items-center justify-center text-gray-600 hover:text-white hover:bg-[#1DA1F2] transition-colors"
-                  >
-                    <i class="fab fa-twitter text-sm"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="h-8 w-8 rounded-full border flex items-center justify-center text-gray-600 hover:text-white hover:bg-gray-800 transition-colors"
-                  >
-                    <i class="fab fa-github text-sm"></i>
-                  </a>
-                </li>
-              </ul>
+            <h3 class="text-xl font-bold text-gray-800">Jane Stenton</h3>
+            <p class="text-[#f1d204] font-medium mb-2">SEO Specialist</p>
+            <p class="text-gray-600 mb-4 text-sm">
+              Curious, tech-geek and gets serious when it comes to work.
+            </p>
+            <div class="flex space-x-4">
+              <a
+                href="#"
+                class="text-[#f1d204] hover:text-white hover:bg-[#f1d204] border rounded-full w-8 h-8 flex items-center justify-center transition"
+              >
+                <i class="fab fa-facebook-f text-sm"></i>
+              </a>
+              <a
+                href="#"
+                class="text-[#f1d204] hover:text-white hover:bg-[#f1d204] border rounded-full w-8 h-8 flex items-center justify-center transition"
+              >
+                <i class="fab fa-twitter text-sm"></i>
+              </a>
+              <a
+                href="#"
+                class="text-[#f1d204] hover:text-white hover:bg-[#f1d204] border rounded-full w-8 h-8 flex items-center justify-center transition"
+              >
+                <i class="fab fa-linkedin-in text-sm"></i>
+              </a>
             </div>
           </div>
+        </div>
 
-          <!-- 3 -->
-          <div
-            class="flex flex-col sm:flex-row p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow max-w-2xl mx-auto"
-          >
-            <!-- Team Member Image -->
-            <div class="flex-shrink-0 mb-4 sm:mb-0">
-              <img
-                src="https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-team-1.jpg"
-                alt="Mark Lawrance - Web Designer"
-                class="w-32 h-32 sm:w-40 sm:h-40 object-cover rounded-full border-4 border-white shadow-md"
-              />
-            </div>
-
-            <!-- Team Member Info -->
-            <div class="flex flex-col pl-0 sm:pl-8">
-              <h4 class="text-xl sm:text-2xl font-bold text-gray-800">
-                Mark Lawrance
-              </h4>
-              <h5 class="text-[#f18b6d] text-lg font-medium mb-3">
-                Web Designer
-              </h5>
-              <p class="text-gray-600 mb-4">
-                Creative, detail-oriented, always focused.
-              </p>
-
-              <!-- Social Icons -->
-              <ul class="flex gap-4">
-                <li>
-                  <a
-                    href="#"
-                    class="h-8 w-8 rounded-full border flex items-center justify-center text-gray-600 hover:text-white hover:bg-blue-600 transition-colors"
-                  >
-                    <i class="fab fa-facebook-f text-sm"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="h-8 w-8 rounded-full border flex items-center justify-center text-gray-600 hover:text-white hover:bg-[#1DA1F2] transition-colors"
-                  >
-                    <i class="fab fa-twitter text-sm"></i>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    class="h-8 w-8 rounded-full border flex items-center justify-center text-gray-600 hover:text-white hover:bg-gray-800 transition-colors"
-                  >
-                    <i class="fab fa-github text-sm"></i>
-                  </a>
-                </li>
-              </ul>
+        <!-- Team Member 3 -->
+        <div class="flex flex-row items-center text-center">
+          <img
+            class="w-32 h-32 sm:w-40 sm:h-40 rounded-full mb-6 mr-10"
+            src="https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-team-3.jpg"
+            alt="John Smith"
+          />
+          <div class="">
+            <h3 class="text-xl font-bold text-gray-800">John Smith</h3>
+            <p class="text-[#a58de4] font-medium mb-2">Developer</p>
+            <p class="text-gray-600 mb-4 text-sm">
+              Enthusiastic, passionate with great sense of humor.
+            </p>
+            <div class="flex space-x-4">
+              <a
+                href="#"
+                class="text-[#a58de4] hover:text-white hover:bg-[#a58de4] border rounded-full w-8 h-8 flex items-center justify-center transition"
+              >
+                <i class="fab fa-facebook-f text-sm"></i>
+              </a>
+              <a
+                href="#"
+                class="text-[#a58de4] hover:text-white hover:bg-[#a58de4] border rounded-full w-8 h-8 flex items-center justify-center transition"
+              >
+                <i class="fab fa-twitter text-sm"></i>
+              </a>
+              <a
+                href="#"
+                class="text-[#a58de4] hover:text-white hover:bg-[#a58de4] border rounded-full w-8 h-8 flex items-center justify-center transition"
+              >
+                <i class="fab fa-linkedin-in text-sm"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -434,7 +489,96 @@
     </section>
 
     <!-- Contact Us -->
-    <section></section>
+    <section class="max-w-7xl mx-auto px-10 py-12 bg-white text-center">
+      <h2 class="text-[35px] text-[#545454] font-bold mt-0 mr-0 mb-10 ml-0">
+        About
+      </h2>
+
+      <!-- Top Info Row -->
+      <div
+        class="grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-800 text-sm mb-12"
+      >
+        <!-- Address -->
+        <div class="flex flex-row gap-5 text-left text-[#8c9597]">
+          <h2 class="font-bold text-yellow-500 mb-1">Address</h2>
+          <div class="bg-gray-800 opacity-[0.5] w-[0.5px] min-h-auto"></div>
+          <p>
+            Street 221B Baker Street,<br />
+            London, UK
+          </p>
+        </div>
+
+        <!-- Customer Support -->
+        <div class="flex flex-row gap-5 text-left text-[#8c9597]">
+          <h2 class="font-bold text-yellow-500 mb-1">Customer Support</h2>
+          <div class="bg-gray-800 opacity-[0.5] w-[0.5px] min-h-auto"></div>
+          <p>E-mail: contact@site.com<br />Phone: (555) 555-5555</p>
+        </div>
+
+        <!-- Social Icons -->
+        <div
+          class="flex justify-start md:justify-end items-start space-x-4 mt-2 md:mt-0"
+        >
+          <a href="#" class="text-gray-500 hover:text-gray-700"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="#" class="text-gray-500 hover:text-gray-700"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="#" class="text-gray-500 hover:text-gray-700"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <form class="space-y-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-[#8c9597]">
+          <div class="text-left">
+            <label for="text">Your Name (Required)</label>
+            <input
+              type="text"
+              required
+              class="w-full px-4 py-2 border border-gray-300 focus:ring-2 focus:ring-yellow-400 focus:outline-none"
+            />
+          </div>
+          <div class="text-left">
+            <label for="email">Your Email (Required)</label>
+            <input
+              type="email"
+              required
+              class="w-full px-4 py-2 border border-gray-300 focus:ring-2 focus:ring-yellow-400 focus:outline-none"
+            />
+          </div>
+          <div class="text-left">
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              class="w-full px-4 py-2 border border-gray-300 focus:ring-2 focus:ring-yellow-400 focus:outline-none"
+            />
+          </div>
+        </div>
+
+        <div class="text-left text-[#8c9597]">
+          <label for="message">
+            <p>Your Message</p>
+          </label>
+          <textarea
+            rows="6"
+            class="w-full px-4 py-2 border border-gray-300 focus:ring-2 focus:ring-yellow-400 focus:outline-none"
+          ></textarea>
+        </div>
+
+        <div class="flex justify-end">
+          <button
+            type="submit"
+            class="bg-yellow-400 hover:bg-yellow-500 text-white font-semibold py-2 px-6 rounded transition"
+          >
+            Send
+          </button>
+        </div>
+      </form>
+    </section>
 
     <!-- Footer -->
     <footer class="bg-[#292825] text-white py-20 px-4 md:px-20">
@@ -443,26 +587,19 @@
           <!-- Footer Column 1 -->
           <div class="space-y-4">
             <h3 class="text-xl font-bold">Products</h3>
-            <ul class="space-y-2">
-              <li>
-                <a href="#" class="hover:text-blue-600 transition"
-                  ><i class="fas fa-arrow-right"></i>&nbsp&nbsp&nbsp Our work
-                </a>
+            <ul class="space-y-2 list-none">
+              <li class="before:content-['\2192'] before:mr-2">
+                <a href="#" class="hover:text-blue-600 transition">Our work</a>
               </li>
-              <li>
-                <a href="#" class="hover:text-blue-600 transition"
-                  ><i class="fas fa-arrow-right"></i>&nbsp&nbsp&nbsp Club</a
-                >
+              <li class="before:content-['\2192'] before:mr-2">
+                <a href="#" class="hover:text-blue-600 transition">Club</a>
               </li>
-              <li>
-                <a href="#" class="hover:text-blue-600 transition"
-                  ><i class="fas fa-arrow-right"></i>&nbsp&nbsp&nbsp News</a
-                >
+              <li class="before:content-['\2192'] before:mr-2">
+                <a href="#" class="hover:text-blue-600 transition">News</a>
               </li>
-              <li>
+              <li class="before:content-['\2192'] before:mr-2">
                 <a href="#" class="hover:text-blue-600 transition"
-                  ><i class="fas fa-arrow-right"></i>&nbsp&nbsp&nbsp
-                  Announcement</a
+                  >Announcement</a
                 >
               </li>
             </ul>
@@ -471,27 +608,20 @@
           <!-- Footer Column 2 -->
           <div class="space-y-4">
             <h3 class="text-xl font-bold">Information</h3>
-            <ul class="space-y-2">
-              <li>
+            <ul class="space-y-2 list-none">
+              <li class="before:content-['\2192'] before:mr-2">
+                <a href="#" class="hover:text-blue-600 transition">Pricing</a>
+              </li>
+              <li class="before:content-['\2192'] before:mr-2">
+                <a href="#" class="hover:text-blue-600 transition">Terms</a>
+              </li>
+              <li class="before:content-['\2192'] before:mr-2">
                 <a href="#" class="hover:text-blue-600 transition"
-                  ><i class="fas fa-arrow-right"></i>&nbsp&nbsp&nbsp Pricing</a
+                  >Affiliates</a
                 >
               </li>
-              <li>
-                <a href="#" class="hover:text-blue-600 transition"
-                  ><i class="fas fa-arrow-right"></i>&nbsp&nbsp&nbsp Terms</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-blue-600 transition"
-                  ><i class="fas fa-arrow-right"></i>&nbsp&nbsp&nbsp
-                  Affiliates</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-blue-600 transition"
-                  ><i class="fas fa-arrow-right"></i>&nbsp&nbsp&nbsp Blog</a
-                >
+              <li class="before:content-['\2192'] before:mr-2">
+                <a href="#" class="hover:text-blue-600 transition">Blog</a>
               </li>
             </ul>
           </div>
@@ -499,27 +629,20 @@
           <!-- Footer Column 3 -->
           <div class="space-y-4">
             <h3 class="text-xl font-bold">Support</h3>
-            <ul class="space-y-2">
-              <li>
+            <ul class="space-y-2 list-none">
+              <li class="before:content-['\2192'] before:mr-3">
                 <a href="#" class="hover:text-blue-600 transition"
-                  ><i class="fas fa-arrow-right"></i>&nbsp&nbsp&nbsp
-                  Documentation</a
+                  >Documentation</a
                 >
               </li>
-              <li>
-                <a href="#" class="hover:text-blue-600 transition"
-                  ><i class="fas fa-arrow-right"></i>&nbsp&nbsp&nbsp FAQs</a
-                >
+              <li class="before:content-['\2192'] before:mr-3">
+                <a href="#" class="hover:text-blue-600 transition">FAQs</a>
               </li>
-              <li>
-                <a href="#" class="hover:text-blue-600 transition"
-                  ><i class="fas fa-arrow-right"></i>&nbsp&nbsp&nbsp Forums</a
-                >
+              <li class="before:content-['\2192'] before:mr-3">
+                <a href="#" class="hover:text-blue-600 transition">Forums</a>
               </li>
-              <li>
-                <a href="#" class="hover:text-blue-600 transition"
-                  ><i class="fas fa-arrow-right"></i>&nbsp&nbsp&nbsp Contact</a
-                >
+              <li class="before:content-['\2192'] before:mr-3">
+                <a href="#" class="hover:text-blue-600 transition">Contact</a>
               </li>
             </ul>
           </div>
