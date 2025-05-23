@@ -47,15 +47,15 @@
           <!-- Header Nav Bar -->
           <header>
             <div
-              class="flex flex-row justify-between place-items-center content-center text-white"
+              class="flex flex-row content-center justify-between text-white place-items-center"
             >
               <img
                 src="./assets/brand-logo.png"
                 alt="elldy-nav-logo-image"
                 class="p-5"
               />
-              <nav class="hidden md:block mt-10">
-                <ul class="flex flex-row justify-center gap-5 lg:gap-10 mr-5">
+              <nav class="hidden mt-10 md:block">
+                <ul class="flex flex-row justify-center gap-5 mr-5 lg:gap-10">
                   <li>
                     <a
                       class="text-[16px] hover:text-[#f1d204] transition-colors"
@@ -109,10 +109,10 @@
               </nav>
 
               <!-- Mobile menu button (optional) -->
-              <button class="md:hidden p-5 text-white">
+              <button class="p-5 text-white md:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
+                  class="w-6 h-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -129,7 +129,7 @@
           </header>
 
           <div
-            class="flex flex-col justify-center align-center text-center content-center place-items-center p-10 md:p-20 text-white"
+            class="flex flex-col content-center justify-center p-10 text-center text-white align-center place-items-center md:p-20"
           >
             <h1
               class="text-4xl p-5 md:text-[80px] font-bold justify-center text-center"
@@ -146,7 +146,7 @@
             </p>
 
             <div
-              class="flex flex-col sm:flex-row justify-center mt-10 gap-5 sm:gap-10"
+              class="flex flex-col justify-center gap-5 mt-10 sm:flex-row sm:gap-10"
             >
               <button
                 class="w-auto md:w-[200px] px-6 py-3 border border-white border-[5px] text-white hover:bg-white hover:text-black transition-colors"
@@ -167,7 +167,7 @@
     <!-- About Section -->
     <section>
       <div class="w-full">
-        <div class="flex flex-col justify-evenly min-h-screen text-center p-10">
+        <div class="flex flex-col min-h-screen p-10 text-center justify-evenly">
           <h2 class="text-[35px] text-[#545454] font-bold mt-0 mr-0 mb-5 ml-0">
             About
           </h2>
@@ -183,7 +183,7 @@
           </p>
 
           <div
-            class="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-5 md:justify-between items-center"
+            class="grid items-center grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 md:justify-between"
           >
             <div class="flex flex-col items-center md:gap-5">
               <div
@@ -223,33 +223,33 @@
     <!-- Projects -->
     <section>
       <div class="w-full">
-        <div class="flex flex-col justify-center text-center mb-5">
+        <div class="flex flex-col justify-center mb-5 text-center">
           <h2 class="text-[35px] text-[#545454] font-bold mt-0 mr-0 ml-0">
             Projects
           </h2>
           <p class="mb-10 text-[#8c9597]">
             You'll love our work. Check it out!
           </p>
-          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 px-4">
+          <div class="grid grid-cols-2 gap-4 px-4 md:grid-cols-4">
             <img
               src="https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/58/2016/03/front-page-project-4.jpg"
               alt="img-1"
-              class="hover:scale-105 transition-transform duration-300 hover:shadow-lg cursor-pointer"
+              class="transition-transform duration-300 cursor-pointer hover:scale-105 hover:shadow-lg"
             />
             <img
               src="https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/58/2016/03/front-page-project-3.jpg"
               alt="img-2"
-              class="hover:scale-105 transition-transform duration-300 hover:shadow-lg cursor-pointer"
+              class="transition-transform duration-300 cursor-pointer hover:scale-105 hover:shadow-lg"
             />
             <img
               src="https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/58/2016/03/front-page-project-2.jpg"
               alt="img-3"
-              class="hover:scale-105 transition-transform duration-300 hover:shadow-lg cursor-pointer"
+              class="transition-transform duration-300 cursor-pointer hover:scale-105 hover:shadow-lg"
             />
             <img
               src="https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/58/2016/03/front-page-project-1.jpg"
               alt="img-4"
-              class="hover:scale-105 transition-transform duration-300 hover:shadow-lg cursor-pointer"
+              class="transition-transform duration-300 cursor-pointer hover:scale-105 hover:shadow-lg"
             />
           </div>
         </div>
@@ -292,7 +292,7 @@
     <section>
       <div class="w-full">
         <div
-          class="flex flex-col justify-evenly min-h-screen text-center mt-10"
+          class="flex flex-col min-h-screen mt-10 text-center justify-evenly"
         >
           <h2 class="text-[35px] text-[#545454] font-bold mt-0 mr-0 ml-0">
             Services
@@ -302,10 +302,10 @@
             experts can advise you in in the following areas:
           </p>
           <div
-            class="flex flex-col md:flex-row justify-center items-center gap-10 p-5 md:p-10"
+            class="flex flex-col items-center justify-center gap-10 p-5 md:flex-row md:p-10"
           >
             <div
-              class="max-w-md border rounded-xl pt-10 pb-10 px-5 justify-evenly flex flex-col hover:scale-105 transition-transform duration-300 hover:shadow-lg cursor-pointers"
+              class="flex flex-col max-w-md px-5 pt-10 pb-10 transition-transform duration-300 border rounded-xl justify-evenly hover:scale-105 hover:shadow-lg cursor-pointers"
             >
               <i class="fas fa-pencil-alt text-[50px] text-[#f18b6d] mb-5"></i>
               <div class="text-[#f18b6d] font-bold text-[24px] mb-5">
@@ -319,7 +319,7 @@
               </div>
             </div>
             <div
-              class="max-w-md border rounded-xl pt-10 pb-10 px-5 justify-evenly flex flex-col hover:scale-105 transition-transform duration-300 hover:shadow-lg cursor-pointers"
+              class="flex flex-col max-w-md px-5 pt-10 pb-10 transition-transform duration-300 border rounded-xl justify-evenly hover:scale-105 hover:shadow-lg cursor-pointers"
             >
               <i class="fas fa-code text-[50px] text-[#f1d204] mb-5"></i>
               <div class="text-[#f1d204] font-bold text-[24px] mb-5">
@@ -333,7 +333,7 @@
               </div>
             </div>
             <div
-              class="max-w-md border rounded-xl pt-10 pb-10 px-5 justify-evenly flex flex-col hover:scale-105 transition-transform duration-300 hover:shadow-lg cursor-pointers"
+              class="flex flex-col max-w-md px-5 pt-10 pb-10 transition-transform duration-300 border rounded-xl justify-evenly hover:scale-105 hover:shadow-lg cursor-pointers"
             >
               <i class="fas fa-search text-[50px] text-[#6a4d8a] mb-5"></i>
               <div class="text-[#6a4d8a] font-bold text-[24px] mb-5">
@@ -369,7 +369,7 @@
               class="bg-[#f1d204] hover:bg-purple-700 text-white font-semibold py-2 px-6 rounded transition"
             >
               <span class="flex items-center justify-center">
-                <i class="fa fa-chevron-circle-right mr-2"></i>
+                <i class="mr-2 fa fa-chevron-circle-right"></i>
                 See Blog
               </span>
             </button>
@@ -377,26 +377,26 @@
 
           <!-- Blog Cards -->
           <div
-            class="grid md:grid-cols-3 gap-8 justify-evenly max-w-6xl mx-auto text-black"
+            class="grid max-w-6xl gap-8 mx-auto text-black md:grid-cols-3 justify-evenly"
           >
             <!-- Card 1 -->
-            <div class="bg-white rounded shadow overflow-hidden">
+            <div class="overflow-hidden bg-white rounded shadow">
               <img
                 src="https://149842022.v2.pressablecdn.com/illdy/wp-content/uploads/sites/58/2016/02/photo-1449168013943-3a15804bb41c-360x213.jpg"
-                class="w-full object-cover bg-center bg-no-repeat"
+                class="object-cover w-full bg-center bg-no-repeat"
                 alt="Ocean"
               />
               <div class="p-5">
-                <h3 class="font-bold text-lg mb-2">
+                <h3 class="mb-2 text-lg font-bold">
                   We Have Made Illdy Theme SEO Friendly
                 </h3>
-                <p class="text-sm text-gray-600 mb-4">
+                <p class="mb-4 text-sm text-gray-600">
                   Illdy One Page WordPress theme is fully SEO friendly and is
                   ready to help you to achieve the highest rankings...
                 </p>
                 <a
                   href="#"
-                  class="text-yellow-500 font-medium flex items-center"
+                  class="flex items-center font-medium text-yellow-500"
                 >
                   <span class="mr-1">●</span> Read more
                 </a>
@@ -404,23 +404,23 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="bg-white rounded shadow overflow-hidden">
+            <div class="overflow-hidden bg-white rounded shadow">
               <img
                 src="https://149842022.v2.pressablecdn.com/illdy/wp-content/uploads/sites/58/2016/02/photo-1450101215322-bf5cd27642fc-360x213.jpg"
-                class="w-full object-cover bg-center bg-no-repeat"
+                class="object-cover w-full bg-center bg-no-repeat"
                 alt="Mountains"
               />
               <div class="p-5">
-                <h3 class="font-bold text-lg mb-2">
+                <h3 class="mb-2 text-lg font-bold">
                   Stunning One Page WordPress Theme For Masses
                 </h3>
-                <p class="text-sm text-gray-600 mb-4">
+                <p class="mb-4 text-sm text-gray-600">
                   Illdy One Page WordPress theme is fully SEO friendly and is
                   ready to help you to achieve the highest rankings...
                 </p>
                 <a
                   href="#"
-                  class="text-yellow-500 font-medium flex items-center"
+                  class="flex items-center font-medium text-yellow-500"
                 >
                   <span class="mr-1">●</span> Read more
                 </a>
@@ -428,23 +428,23 @@
             </div>
 
             <!-- Card 3 -->
-            <div class="bg-white rounded shadow overflow-hidden">
+            <div class="overflow-hidden bg-white rounded shadow">
               <img
                 src="https://149842022.v2.pressablecdn.com/illdy/wp-content/uploads/sites/58/2016/02/photo-1447687643809-e05fd462f350-360x213.jpg"
-                class="w-full object-cover bg-center bg-no-repeat"
+                class="object-cover w-full bg-center bg-no-repeat"
                 alt="Mountains"
               />
               <div class="p-5">
-                <h3 class="font-bold text-lg mb-2">
+                <h3 class="mb-2 text-lg font-bold">
                   We Have Made Illdy Theme SEO Friendly
                 </h3>
-                <p class="text-sm text-gray-600 mb-4">
+                <p class="mb-4 text-sm text-gray-600">
                   Illdy One Page WordPress theme is fully SEO friendly and is
                   ready to help you to achieve the highest rankings...
                 </p>
                 <a
                   href="#"
-                  class="text-yellow-500 font-medium flex items-center"
+                  class="flex items-center font-medium text-yellow-500"
                 >
                   <span class="mr-1">●</span> Read more
                 </a>
@@ -455,7 +455,7 @@
 
         <!-- Yellow Stats Bar -->
         <div
-          class="bg-yellow-500 py-10 text-center text-white grid grid-cols-1 md:grid-cols-3 gap-5 font-bold text-xl"
+          class="grid grid-cols-1 gap-5 py-10 text-xl font-bold text-center text-white bg-yellow-500 md:grid-cols-3"
         >
           <div>
             <div class="text-4xl">260</div>
@@ -478,7 +478,7 @@
         class="md:py-10 min-h-screen mt-10 w-full bg-[url('https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png')] bg-center bg-cover bg-no-repeat bg-white"
         alt="pattern"
       >
-        <div class="text-center mb-20 justify-evenly">
+        <div class="mb-20 text-center justify-evenly">
           <h2 class="text-[35px] text-[#545454] font-bold">Team</h2>
           <p class="text-[#8c9597] font-lato">
             Meet the people that are going to take your business to the next
@@ -487,23 +487,23 @@
         </div>
 
         <div
-          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 px-6 max-w-7xl mx-auto place-items-center"
+          class="grid grid-cols-1 gap-12 px-6 mx-auto sm:grid-cols-2 lg:grid-cols-3 max-w-7xl place-items-center"
         >
           <!-- Team Member 1 -->
           <div
             class="flex flex-col md:flex-row place-items-center border rounded-[10px] md:border-none md:shadow-lg p-10"
           >
             <img
-              class="rounded-full mb-6 md:mr-10"
+              class="mb-6 rounded-full md:mr-10"
               src="https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-team-1.jpg"
               alt="Mark Lawrance"
             />
             <div
-              class="flex flex-col justify-evenly text-center place-items-center"
+              class="flex flex-col text-center justify-evenly place-items-center"
             >
               <h3 class="text-xl font-bold text-gray-800">Mark Lawrance</h3>
               <p class="text-[#f18b6d] font-medium mb-2">Web Designer</p>
-              <p class="text-gray-600 mb-4 text-sm">
+              <p class="mb-4 text-sm text-gray-600">
                 Creative, detail-oriented, always focused.
               </p>
               <div class="flex space-x-4">
@@ -511,19 +511,19 @@
                   href="#"
                   class="text-[#f18b6d] hover:text-white hover:bg-[#f18b6d] border rounded-full w-8 h-8 flex items-center justify-center transition"
                 >
-                  <i class="fab fa-facebook-f text-sm"></i>
+                  <i class="text-sm fab fa-facebook-f"></i>
                 </a>
                 <a
                   href="#"
                   class="text-[#f18b6d] hover:text-white hover:bg-[#f18b6d] border rounded-full w-8 h-8 flex items-center justify-center transition"
                 >
-                  <i class="fab fa-twitter text-sm"></i>
+                  <i class="text-sm fab fa-twitter"></i>
                 </a>
                 <a
                   href="#"
                   class="text-[#f18b6d] hover:text-white hover:bg-[#f18b6d] border rounded-full w-8 h-8 flex items-center justify-center transition"
                 >
-                  <i class="fab fa-linkedin-in text-sm"></i>
+                  <i class="text-sm fab fa-linkedin-in"></i>
                 </a>
               </div>
             </div>
@@ -534,16 +534,16 @@
             class="flex flex-col md:flex-row place-items-center border rounded-[10px] md:border-none md:shadow-lg p-10"
           >
             <img
-              class="rounded-full mb-6 md:mr-10"
+              class="mb-6 rounded-full md:mr-10"
               src="https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-team-2.jpg"
               alt="Jane Stenton"
             />
             <div
-              class="flex flex-col justify-evenly text-center place-items-center"
+              class="flex flex-col text-center justify-evenly place-items-center"
             >
               <h3 class="text-xl font-bold text-gray-800">Jane Stenton</h3>
               <p class="text-[#f1d204] font-medium mb-2">SEO Specialist</p>
-              <p class="text-gray-600 mb-4 text-sm">
+              <p class="mb-4 text-sm text-gray-600">
                 Curious, tech-geek and gets serious when it comes to work.
               </p>
               <div class="flex space-x-4">
@@ -551,19 +551,19 @@
                   href="#"
                   class="text-[#f1d204] hover:text-white hover:bg-[#f1d204] border rounded-full w-8 h-8 flex items-center justify-center transition"
                 >
-                  <i class="fab fa-facebook-f text-sm"></i>
+                  <i class="text-sm fab fa-facebook-f"></i>
                 </a>
                 <a
                   href="#"
                   class="text-[#f1d204] hover:text-white hover:bg-[#f1d204] border rounded-full w-8 h-8 flex items-center justify-center transition"
                 >
-                  <i class="fab fa-twitter text-sm"></i>
+                  <i class="text-sm fab fa-twitter"></i>
                 </a>
                 <a
                   href="#"
                   class="text-[#f1d204] hover:text-white hover:bg-[#f1d204] border rounded-full w-8 h-8 flex items-center justify-center transition"
                 >
-                  <i class="fab fa-linkedin-in text-sm"></i>
+                  <i class="text-sm fab fa-linkedin-in"></i>
                 </a>
               </div>
             </div>
@@ -574,16 +574,16 @@
             class="flex flex-col md:flex-row place-items-center border rounded-[10px] md:border-none md:shadow-lg p-10"
           >
             <img
-              class="rounded-full mb-6 md:mr-10"
+              class="mb-6 rounded-full md:mr-10"
               src="https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-team-3.jpg"
               alt="John Smith"
             />
             <div
-              class="flex flex-col justify-evenly text-center place-items-center"
+              class="flex flex-col text-center justify-evenly place-items-center"
             >
               <h3 class="text-xl font-bold text-gray-800">John Smith</h3>
               <p class="text-[#a58de4] font-medium mb-2">Developer</p>
-              <p class="text-gray-600 mb-4 text-sm">
+              <p class="mb-4 text-sm text-gray-600">
                 Enthusiastic, passionate with great sense of humor.
               </p>
               <div class="flex space-x-4">
@@ -591,19 +591,19 @@
                   href="#"
                   class="text-[#a58de4] hover:text-white hover:bg-[#a58de4] border rounded-full w-8 h-8 flex items-center justify-center transition"
                 >
-                  <i class="fab fa-facebook-f text-sm"></i>
+                  <i class="text-sm fab fa-facebook-f"></i>
                 </a>
                 <a
                   href="#"
                   class="text-[#a58de4] hover:text-white hover:bg-[#a58de4] border rounded-full w-8 h-8 flex items-center justify-center transition"
                 >
-                  <i class="fab fa-twitter text-sm"></i>
+                  <i class="text-sm fab fa-twitter"></i>
                 </a>
                 <a
                   href="#"
                   class="text-[#a58de4] hover:text-white hover:bg-[#a58de4] border rounded-full w-8 h-8 flex items-center justify-center transition"
                 >
-                  <i class="fab fa-linkedin-in text-sm"></i>
+                  <i class="text-sm fab fa-linkedin-in"></i>
                 </a>
               </div>
             </div>
@@ -614,20 +614,20 @@
 
     <!-- Contact Us -->
     <section>
-      <div class="max-w-7xl mx-auto px-10 p-5 md:py-10 bg-white text-center">
+      <div class="p-5 px-10 mx-auto text-center bg-white max-w-7xl md:py-10">
         <h2 class="text-[35px] text-[#545454] font-bold mt-0 mr-0 mb-10 ml-0">
           About
         </h2>
 
         <!-- Top Info Row -->
         <div
-          class="grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-800 text-sm mb-12"
+          class="grid grid-cols-1 gap-8 mb-12 text-sm text-gray-800 md:grid-cols-3"
         >
           <!-- Address -->
           <div
             class="flex flex-col md:flex-row md:gap-5 text-left text-[#8c9597]"
           >
-            <h2 class="font-bold text-yellow-500 mb-1">Address</h2>
+            <h2 class="mb-1 font-bold text-yellow-500">Address</h2>
             <div class="bg-gray-800 opacity-[0.5] w-[0.5px] min-h-auto"></div>
             <p>
               Street 221B Baker Street<br />
@@ -639,14 +639,14 @@
           <div
             class="flex flex-col md:flex-row md:gap-5 text-left text-[#8c9597]"
           >
-            <h2 class="font-bold text-yellow-500 mb-1">Customer Support</h2>
+            <h2 class="mb-1 font-bold text-yellow-500">Customer Support</h2>
             <div class="bg-gray-800 opacity-[0.5] w-[0.5px] min-h-auto"></div>
             <p>E-mail: contact@site.com<br />Phone: (555) 555-5555</p>
           </div>
 
           <!-- Social Icons -->
           <div
-            class="flex justify-start md:justify-end items-start space-x-4 mt-2 md:mt-0"
+            class="flex items-start justify-start mt-2 space-x-4 md:justify-end md:mt-0"
           >
             <a href="#" class="text-gray-500 hover:text-gray-700"
               ><i class="fab fa-twitter"></i
@@ -701,7 +701,7 @@
           <div class="flex justify-end">
             <button
               type="submit"
-              class="bg-yellow-400 hover:bg-yellow-500 text-white font-semibold py-2 px-6 rounded transition"
+              class="px-6 py-2 font-semibold text-white transition bg-yellow-400 rounded hover:bg-yellow-500"
             >
               Send
             </button>
@@ -713,7 +713,7 @@
     <!-- Footer -->
     <footer class="bg-[#292825] text-white py-20 px-4 md:px-20">
       <div class="max-w-6xl mx-auto">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
           <!-- Footer Column 1 -->
           <div class="space-y-4">
             <h3 class="text-xl font-bold">Products</h3>
@@ -721,33 +721,33 @@
               <li>
                 <a
                   href="#"
-                  class="hover:text-blue-600 transition flex items-center"
+                  class="flex items-center transition hover:text-blue-600"
                 >
-                  <i class="fas fa-angle-right mr-2"></i> Our work
+                  <i class="mr-2 fas fa-angle-right"></i> Our work
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  class="hover:text-blue-600 transition flex items-center"
+                  class="flex items-center transition hover:text-blue-600"
                 >
-                  <i class="fas fa-angle-right mr-2"></i> Club
+                  <i class="mr-2 fas fa-angle-right"></i> Club
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  class="hover:text-blue-600 transition flex items-center"
+                  class="flex items-center transition hover:text-blue-600"
                 >
-                  <i class="fas fa-angle-right mr-2"></i> News
+                  <i class="mr-2 fas fa-angle-right"></i> News
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  class="hover:text-blue-600 transition flex items-center"
+                  class="flex items-center transition hover:text-blue-600"
                 >
-                  <i class="fas fa-angle-right mr-2"></i> Announcement
+                  <i class="mr-2 fas fa-angle-right"></i> Announcement
                 </a>
               </li>
             </ul>
@@ -760,33 +760,33 @@
               <li>
                 <a
                   href="#"
-                  class="hover:text-blue-600 transition flex items-center"
+                  class="flex items-center transition hover:text-blue-600"
                 >
-                  <i class="fas fa-angle-right mr-2"></i> Pricing
+                  <i class="mr-2 fas fa-angle-right"></i> Pricing
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  class="hover:text-blue-600 transition flex items-center"
+                  class="flex items-center transition hover:text-blue-600"
                 >
-                  <i class="fas fa-angle-right mr-2"></i> Terms
+                  <i class="mr-2 fas fa-angle-right"></i> Terms
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  class="hover:text-blue-600 transition flex items-center"
+                  class="flex items-center transition hover:text-blue-600"
                 >
-                  <i class="fas fa-angle-right mr-2"></i> Affiliates
+                  <i class="mr-2 fas fa-angle-right"></i> Affiliates
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  class="hover:text-blue-600 transition flex items-center"
+                  class="flex items-center transition hover:text-blue-600"
                 >
-                  <i class="fas fa-angle-right mr-2"></i> Blog
+                  <i class="mr-2 fas fa-angle-right"></i> Blog
                 </a>
               </li>
             </ul>
@@ -799,33 +799,33 @@
               <li>
                 <a
                   href="#"
-                  class="hover:text-blue-600 transition flex items-center"
+                  class="flex items-center transition hover:text-blue-600"
                 >
-                  <i class="fas fa-angle-right mr-3"></i> Documentation
+                  <i class="mr-3 fas fa-angle-right"></i> Documentation
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  class="hover:text-blue-600 transition flex items-center"
+                  class="flex items-center transition hover:text-blue-600"
                 >
-                  <i class="fas fa-angle-right mr-3"></i> FAQs
+                  <i class="mr-3 fas fa-angle-right"></i> FAQs
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  class="hover:text-blue-600 transition flex items-center"
+                  class="flex items-center transition hover:text-blue-600"
                 >
-                  <i class="fas fa-angle-right mr-3"></i> Forums
+                  <i class="mr-3 fas fa-angle-right"></i> Forums
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  class="hover:text-blue-600 transition flex items-center"
+                  class="flex items-center transition hover:text-blue-600"
                 >
-                  <i class="fas fa-angle-right mr-3"></i> Contact
+                  <i class="mr-3 fas fa-angle-right"></i> Contact
                 </a>
               </li>
             </ul>
@@ -838,33 +838,33 @@
               <li>
                 <a
                   href="#"
-                  class="hover:text-blue-600 transition flex items-center"
+                  class="flex items-center transition hover:text-blue-600"
                 >
-                  <i class="fas fa-angle-right mr-3"></i> Documentation
+                  <i class="mr-3 fas fa-angle-right"></i> Documentation
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  class="hover:text-blue-600 transition flex items-center"
+                  class="flex items-center transition hover:text-blue-600"
                 >
-                  <i class="fas fa-angle-right mr-3"></i> FAQs
+                  <i class="mr-3 fas fa-angle-right"></i> FAQs
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  class="hover:text-blue-600 transition flex items-center"
+                  class="flex items-center transition hover:text-blue-600"
                 >
-                  <i class="fas fa-angle-right mr-3"></i> Forums
+                  <i class="mr-3 fas fa-angle-right"></i> Forums
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  class="hover:text-blue-600 transition flex items-center"
+                  class="flex items-center transition hover:text-blue-600"
                 >
-                  <i class="fas fa-angle-right mr-3"></i> Contact
+                  <i class="mr-3 fas fa-angle-right"></i> Contact
                 </a>
               </li>
             </ul>
@@ -872,7 +872,7 @@
         </div>
 
         <div>
-          <div class="border-t border-gray-300 mt-10 pt-6 text-center">
+          <div class="pt-6 mt-10 text-center border-t border-gray-300">
             <p>&copy; 2025 Elldy Shop. All rights reserved.</p>
           </div>
         </div>
